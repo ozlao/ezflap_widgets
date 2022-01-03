@@ -1,0 +1,30 @@
+name: ezflap_widgets
+description: Core Widgets for the ezflap library.
+
+version: 0.9.0-dev
+homepage: https://www.ezflap.io/
+repository: https://github.com/ozlao/ezflap_widgets
+issue_tracker: https://github.com/ozlao/ezflap_widgets/issues
+documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get: ^4.1.4
+  ezflap:               # forDevelopment
+    path: "../ezflap"   # forDevelopment
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  build_runner: ^2.1.4
+
+flutter:
