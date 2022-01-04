@@ -18,8 +18,7 @@ dependencies:
     sdk: flutter
 
   get: ^4.1.4
-  ezflap:               # forDevelopment
-    path: "../ezflap"   # forDevelopment
+  ezflap: 0.9.0-dev     # forRelease
 
 dev_dependencies:
   flutter_test:
