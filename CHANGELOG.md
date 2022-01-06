@@ -1,3 +1,6 @@
+## 0.9.0+6
+* Added generated files
+
 ## 0.9.0+5
 * Cleanups
 
