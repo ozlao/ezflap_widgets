@@ -1,7 +1,7 @@
 name: ezflap_widgets
 description: Core Widgets for the ezflap library.
 
-version: 0.9.0+2
+version: 0.9.0+3
 homepage: https://www.ezflap.io/
 repository: https://github.com/ozlao/ezflap_widgets
 issue_tracker: https://github.com/ozlao/ezflap_widgets/issues
@@ -18,7 +18,7 @@ dependencies:
     sdk: flutter
 
   get: ^4.1.4
-  ezflap: 0.9.0+1       # forRelease
+  ezflap: ^0.9.0        # forRelease
   ezflap:               # forDevelopment
     path: "../ezflap"   # forDevelopment
 

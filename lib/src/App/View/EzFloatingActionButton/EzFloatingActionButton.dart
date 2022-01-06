@@ -1,10 +1,8 @@
 
 import 'package:ezflap/ezflap.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 part "EzFloatingActionButton.g.dart";
-
 
 /// Note: overriding FloatingActionButton.heroTag is not supported.
 class EzFloatingActionButton extends EzStatefulWidgetBase {

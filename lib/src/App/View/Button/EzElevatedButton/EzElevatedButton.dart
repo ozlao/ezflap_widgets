@@ -2,7 +2,6 @@
 import 'package:ezflap/ezflap.dart';
 import 'package:ezflap_widgets/src/App/View/Button/EzButtonBase.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 part "EzElevatedButton.g.dart";
 

@@ -2,7 +2,6 @@
 import 'package:ezflap/ezflap.dart';
 import 'package:ezflap_widgets/src/App/View/EzRadioListTile/EzRadioListTile.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get/get.dart';
 
