@@ -5,11 +5,17 @@ import 'package:flutter/widgets.dart';
 
 part "EzRadioListTile.g.dart";
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#ezradiolisttile
+///
+/// Wraps RadioListTile.
 class EzRadioListTile extends EzStatefulWidgetBase {
 	@override
 	EzRadioListTileState createState() => EzRadioListTileState();
 }
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#ezradiolisttile
+///
+/// Wraps RadioListTile.
 @EzWidget()
 class EzRadioListTileState extends _EzStateBase {
 	/* MODELS (2) **/

@@ -3,6 +3,7 @@ import 'package:ezflap/ezflap.dart';
 import 'package:ezflap_widgets/src/App/View/Button/EzTextButton/EzTextButton.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:ezflap/src/Service/EzflapTester/WidgetTesterExtension/WidgetTesterExtension.dart';
 
 void main() {
 	testWidgets("EzTextButton - test instantiation", (WidgetTester tester) async {

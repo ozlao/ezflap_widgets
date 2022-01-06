@@ -4,11 +4,17 @@ import 'package:flutter/material.dart';
 
 part "EzToggleButtons.g.dart";
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#eztogglebuttons
+///
+/// Wraps ToggleButtons.
 class EzToggleButtons extends EzStatefulWidgetBase {
 	@override
 	EzToggleButtonsState createState() => EzToggleButtonsState();
 }
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#eztogglebuttons
+///
+/// Wraps ToggleButtons.
 @EzWidget()
 class EzToggleButtonsState extends _EzStateBase {
 	/* MODELS (2) **/

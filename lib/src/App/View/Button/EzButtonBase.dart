@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 
 part "EzButtonBase.g.dart";
 
+/// Common capabilities for buttons
+@internal
 @EzWidget()
 abstract class EzButtonBaseState<T extends EzStatefulWidgetBase> extends _EzStateBase<T> {
 	/* PROPS (3) **/

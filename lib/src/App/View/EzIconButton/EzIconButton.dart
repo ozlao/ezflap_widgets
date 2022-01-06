@@ -5,11 +5,17 @@ import 'package:flutter/widgets.dart';
 
 part "EzIconButton.g.dart";
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#eziconbutton
+///
+/// Wraps IconButton.
 class EzIconButton extends EzStatefulWidgetBase {
 	@override
 	EzIconButtonState createState() => EzIconButtonState();
 }
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#eziconbutton
+///
+/// Wraps IconButton.
 @EzWidget()
 class EzIconButtonState extends _EzStateBase {
 	/* PROPS (3) **/

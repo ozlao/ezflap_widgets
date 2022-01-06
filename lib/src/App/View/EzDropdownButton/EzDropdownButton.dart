@@ -4,11 +4,17 @@ import 'package:flutter/material.dart';
 
 part "EzDropdownButton.g.dart";
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#ezdropdownbutton
+///
+/// Wraps DropdownButton.
 class EzDropdownButton extends EzStatefulWidgetBase {
 	@override
 	EzDropdownButtonState createState() => EzDropdownButtonState();
 }
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#ezdropdownbutton
+///
+/// Wraps DropdownButton.
 @EzWidget()
 class EzDropdownButtonState extends _EzStateBase {
 	/* MODELS (2) **/

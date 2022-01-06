@@ -7,11 +7,17 @@ part "EzTextFormField.g.dart";
 
 typedef TTextFormFieldValidator = String? Function(String?);
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#eztextformfield
+///
+/// Wraps TextFormField.
 class EzTextFormField extends EzStatefulWidgetBase {
 	@override
 	EzTextFormFieldState createState() => EzTextFormFieldState();
 }
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#eztextformfield
+///
+/// Wraps TextFormField.
 @EzWidget(extend: EzTextInputBaseState)
 class EzTextFormFieldState extends _EzStateBase<EzTextFormField> {
 	/* PROPS (3) **/

@@ -8,6 +8,8 @@ import 'package:flutter/widgets.dart';
 
 part "EzTextInputBase.g.dart";
 
+/// Common capabilities for text fields
+@internal
 @EzWidget()
 abstract class EzTextInputBaseState<T extends EzStatefulWidgetBase> extends _EzStateBase<T> {
 	/* MODELS (2) **/

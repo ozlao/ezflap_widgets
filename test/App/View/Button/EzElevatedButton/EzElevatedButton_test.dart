@@ -1,6 +1,7 @@
 
 import 'package:ezflap/ezflap.dart';
 import 'package:ezflap_widgets/src/App/View/Button/EzElevatedButton/EzElevatedButton.dart';
+import 'package:ezflap/src/Service/EzflapTester/WidgetTesterExtension/WidgetTesterExtension.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 

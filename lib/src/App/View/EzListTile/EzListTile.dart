@@ -5,11 +5,17 @@ import 'package:flutter/widgets.dart';
 
 part "EzListTile.g.dart";
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#ezlisttile
+///
+/// Wraps ListTile.
 class EzListTile extends EzStatefulWidgetBase {
 	@override
 	EzListTileState createState() => EzListTileState();
 }
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#ezlisttile
+///
+/// Wraps ListTile.
 @EzWidget()
 class EzListTileState extends _EzStateBase {
 	/* PROPS (3) **/

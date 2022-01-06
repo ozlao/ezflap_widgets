@@ -5,11 +5,17 @@ import 'package:flutter/widgets.dart';
 
 part "EzSlider.g.dart";
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#ezslider
+///
+/// Wraps Slider.
 class EzSlider extends EzStatefulWidgetBase {
 	@override
 	EzSliderState createState() => EzSliderState();
 }
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#ezslider
+///
+/// Wraps Slider.
 @EzWidget()
 class EzSliderState extends _EzStateBase {
 	/* MODELS (2) **/

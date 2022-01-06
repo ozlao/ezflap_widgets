@@ -4,6 +4,7 @@ import 'package:ezflap_widgets/src/App/View/EzToggleButtons/EzToggleButtons.dart
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:ezflap/src/Service/EzflapTester/WidgetTesterExtension/WidgetTesterExtension.dart';
 
 void main() {
 	testWidgets("EzToggleButtons - test general functionality", (WidgetTester tester) async {

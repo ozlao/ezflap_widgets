@@ -5,11 +5,17 @@ import 'package:flutter/widgets.dart';
 
 part "EzCheckboxListTile.g.dart";
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#ezcheckboxlisttile
+///
+/// Wraps CheckboxListTile.
 class EzCheckboxListTile extends EzStatefulWidgetBase {
 	@override
 	EzCheckboxListTileState createState() => EzCheckboxListTileState();
 }
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#ezcheckboxlisttile
+///
+/// Wraps CheckboxListTile.
 @EzWidget()
 class EzCheckboxListTileState extends _EzStateBase {
 	/* MODELS (2) **/

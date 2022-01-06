@@ -4,12 +4,19 @@ import 'package:flutter/material.dart';
 
 part "EzFloatingActionButton.g.dart";
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#ezfloatingactionbutton
+///
+/// Wraps FloatingActionButton.
 /// Note: overriding FloatingActionButton.heroTag is not supported.
 class EzFloatingActionButton extends EzStatefulWidgetBase {
 	@override
 	EzFloatingActionButtonState createState() => EzFloatingActionButtonState();
 }
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#ezfloatingactionbutton
+///
+/// Wraps FloatingActionButton.
+/// Note: overriding FloatingActionButton.heroTag is not supported.
 @EzWidget()
 class EzFloatingActionButtonState extends _EzStateBase {
 	/* PROPS (3) **/

@@ -8,11 +8,17 @@ import 'package:flutter/material.dart';
 
 part "EzTextField.g.dart";
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#eztextfield
+///
+/// Wraps TextField.
 class EzTextField extends EzStatefulWidgetBase {
 	@override
 	EzTextFieldState createState() => EzTextFieldState();
 }
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#eztextfield
+///
+/// Wraps TextField.
 @EzWidget(extend: EzTextInputBaseState)
 class EzTextFieldState extends _EzStateBase<EzTextField> {
 	/* PROPS (3) **/

@@ -6,11 +6,17 @@ import 'package:flutter/widgets.dart';
 
 part "EzGestureDetector.g.dart";
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#ezgesturedetector
+///
+/// Wraps GestureDetector.
 class EzGestureDetector extends EzStatefulWidgetBase {
 	@override
 	EzGestureDetectorState createState() => EzGestureDetectorState();
 }
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#ezgesturedetector
+///
+/// Wraps GestureDetector.
 @EzWidget()
 class EzGestureDetectorState extends _EzStateBase {
 	/* PROPS (3) **/

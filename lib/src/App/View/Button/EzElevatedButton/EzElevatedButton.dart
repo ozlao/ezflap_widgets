@@ -5,11 +5,17 @@ import 'package:flutter/material.dart';
 
 part "EzElevatedButton.g.dart";
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#ezelevatedbutton
+///
+/// Wraps ElevatedButton.
 class EzElevatedButton extends EzStatefulWidgetBase {
 	@override
 	EzElevatedButtonState createState() => EzElevatedButtonState();
 }
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#ezelevatedbutton
+///
+/// Wraps ElevatedButton.
 @EzWidget(extend: EzButtonBaseState)
 class EzElevatedButtonState extends _EzStateBase {
 	/* PROPS (3) **/

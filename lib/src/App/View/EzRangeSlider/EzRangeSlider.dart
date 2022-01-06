@@ -5,11 +5,17 @@ import 'package:flutter/widgets.dart';
 
 part "EzRangeSlider.g.dart";
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#ezrangeslider
+///
+/// Wraps RangeSlider.
 class EzRangeSlider extends EzStatefulWidgetBase {
 	@override
 	EzRangeSliderState createState() => EzRangeSliderState();
 }
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#ezrangeslider
+///
+/// Wraps RangeSlider.
 @EzWidget()
 class EzRangeSliderState extends _EzStateBase {
 	/* MODELS (2) **/

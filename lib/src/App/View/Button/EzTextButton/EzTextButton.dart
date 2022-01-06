@@ -6,11 +6,17 @@ import 'package:flutter/widgets.dart';
 
 part "EzTextButton.g.dart";
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#eztextbutton
+///
+/// Wraps TextButton.
 class EzTextButton extends EzStatefulWidgetBase {
 	@override
 	EzTextButtonState createState() => EzTextButtonState();
 }
 
+/// Full documentation: https://www.ezflap.io/deep-dive/core-widgets/core-widgets.html#eztextbutton
+///
+/// Wraps TextButton.
 @EzWidget(extend: EzButtonBaseState)
 class EzTextButtonState extends _EzStateBase {
 	/* PROPS (3) **/

@@ -4,6 +4,7 @@ import 'package:ezflap_widgets/src/App/View/EzRadioListTile/EzRadioListTile.dart
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get/get.dart';
+import 'package:ezflap/src/Service/EzflapTester/WidgetTesterExtension/WidgetTesterExtension.dart';
 
 void main() {
 	testWidgets("EzRadioListTile - test general functionality", (WidgetTester tester) async {
