@@ -1,7 +1,7 @@
 name: ezflap_widgets
-description: Core Widgets for the ezflap library.
+description: Core widgets are thin wrappers around native Flutter widgets to add support for ezFlap features like models and z-on event handlers.
 
-version: 0.9.0+3
+version: 0.9.0+5
 homepage: https://www.ezflap.io/
 repository: https://github.com/ozlao/ezflap_widgets
 issue_tracker: https://github.com/ozlao/ezflap_widgets/issues
@@ -18,8 +18,7 @@ dependencies:
     sdk: flutter
 
   get: ^4.1.4
-  ezflap:               # forDevelopment
-    path: "../ezflap"   # forDevelopment
+  ezflap: ^0.9.0        # forRelease
 
 dev_dependencies:
   flutter_test:
