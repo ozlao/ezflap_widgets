@@ -1,7 +1,7 @@
 name: ezflap_widgets
 description: Core widgets are thin wrappers around native Flutter widgets to add support for ezFlap features like models and z-on event handlers.
 
-version: 0.9.0+6
+version: 0.9.0+7
 homepage: https://www.ezflap.io/
 repository: https://github.com/ozlao/ezflap_widgets
 issue_tracker: https://github.com/ozlao/ezflap_widgets/issues
