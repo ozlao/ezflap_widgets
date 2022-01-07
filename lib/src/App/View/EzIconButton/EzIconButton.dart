@@ -8,6 +8,8 @@ part "EzIconButton.g.dart";
 ///
 /// Wraps IconButton.
 class EzIconButton extends EzStatefulWidgetBase {
+	EzIconButton({ Key? key }) : super(key: null);
+
 	@override
 	EzIconButtonState createState() => EzIconButtonState();
 }

@@ -9,6 +9,8 @@ part "EzElevatedButton.g.dart";
 ///
 /// Wraps ElevatedButton.
 class EzElevatedButton extends EzStatefulWidgetBase {
+	EzElevatedButton({ Key? key }) : super(key: null);
+	
 	@override
 	EzElevatedButtonState createState() => EzElevatedButtonState();
 }

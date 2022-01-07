@@ -9,6 +9,8 @@ part "EzFloatingActionButton.g.dart";
 /// Wraps FloatingActionButton.
 /// Note: overriding FloatingActionButton.heroTag is not supported.
 class EzFloatingActionButton extends EzStatefulWidgetBase {
+	EzFloatingActionButton({ Key? key }) : super(key: null);
+	
 	@override
 	EzFloatingActionButtonState createState() => EzFloatingActionButtonState();
 }

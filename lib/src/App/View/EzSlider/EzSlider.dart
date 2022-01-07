@@ -8,6 +8,8 @@ part "EzSlider.g.dart";
 ///
 /// Wraps Slider.
 class EzSlider extends EzStatefulWidgetBase {
+	EzSlider({ Key? key }) : super(key: null);
+	
 	@override
 	EzSliderState createState() => EzSliderState();
 }

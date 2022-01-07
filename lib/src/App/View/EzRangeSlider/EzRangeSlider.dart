@@ -8,6 +8,8 @@ part "EzRangeSlider.g.dart";
 ///
 /// Wraps RangeSlider.
 class EzRangeSlider extends EzStatefulWidgetBase {
+	EzRangeSlider({ Key? key }) : super(key: null);
+	
 	@override
 	EzRangeSliderState createState() => EzRangeSliderState();
 }

@@ -10,6 +10,8 @@ part "EzGestureDetector.g.dart";
 ///
 /// Wraps GestureDetector.
 class EzGestureDetector extends EzStatefulWidgetBase {
+	EzGestureDetector({ Key? key }) : super(key: null);
+
 	@override
 	EzGestureDetectorState createState() => EzGestureDetectorState();
 }

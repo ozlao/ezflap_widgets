@@ -12,6 +12,8 @@ part "EzTextField.g.dart";
 ///
 /// Wraps TextField.
 class EzTextField extends EzStatefulWidgetBase {
+	EzTextField({ Key? key }) : super(key: null);
+	
 	@override
 	EzTextFieldState createState() => EzTextFieldState();
 }

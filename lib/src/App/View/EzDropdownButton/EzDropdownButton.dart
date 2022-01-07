@@ -8,6 +8,8 @@ part "EzDropdownButton.g.dart";
 ///
 /// Wraps DropdownButton.
 class EzDropdownButton extends EzStatefulWidgetBase {
+	EzDropdownButton({ Key? key }) : super(key: null);
+	
 	@override
 	EzDropdownButtonState createState() => EzDropdownButtonState();
 }

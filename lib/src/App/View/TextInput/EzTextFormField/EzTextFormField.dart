@@ -11,6 +11,8 @@ typedef TTextFormFieldValidator = String? Function(String?);
 ///
 /// Wraps TextFormField.
 class EzTextFormField extends EzStatefulWidgetBase {
+	EzTextFormField({ Key? key }) : super(key: null);
+	
 	@override
 	EzTextFormFieldState createState() => EzTextFormFieldState();
 }

@@ -133,7 +133,7 @@ abstract class EzTextInputBaseState<T extends EzStatefulWidgetBase> extends _EzS
 		var ctl = TextEditingController(text: curText);
 		this.controller = ctl;
 
-		VoidCallback func = () {
+		void func() {
 			String newText = this.controller!.text;
 			String? curText = this._tryGetCurValueAsString();
 			if (newText == curText) {
@@ -157,7 +157,7 @@ abstract class EzTextInputBaseState<T extends EzStatefulWidgetBase> extends _EzS
 					this.model = newText;
 				}
 			}
-		};
+		}
 		this.controller!.addListener(func);
 		this.onDispose(() {
 			this.controller!.removeListener(func);

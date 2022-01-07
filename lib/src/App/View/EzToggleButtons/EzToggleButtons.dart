@@ -8,6 +8,8 @@ part "EzToggleButtons.g.dart";
 ///
 /// Wraps ToggleButtons.
 class EzToggleButtons extends EzStatefulWidgetBase {
+	EzToggleButtons({ Key? key }) : super(key: null);
+	
 	@override
 	EzToggleButtonsState createState() => EzToggleButtonsState();
 }

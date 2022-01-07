@@ -8,6 +8,8 @@ part "EzRadioListTile.g.dart";
 ///
 /// Wraps RadioListTile.
 class EzRadioListTile extends EzStatefulWidgetBase {
+	EzRadioListTile({ Key? key }) : super(key: null);
+	
 	@override
 	EzRadioListTileState createState() => EzRadioListTileState();
 }

@@ -8,6 +8,8 @@ part "EzCheckboxListTile.g.dart";
 ///
 /// Wraps CheckboxListTile.
 class EzCheckboxListTile extends EzStatefulWidgetBase {
+	EzCheckboxListTile({ Key? key }) : super(key: null);
+	
 	@override
 	EzCheckboxListTileState createState() => EzCheckboxListTileState();
 }

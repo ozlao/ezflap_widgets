@@ -9,6 +9,8 @@ part "EzTextButton.g.dart";
 ///
 /// Wraps TextButton.
 class EzTextButton extends EzStatefulWidgetBase {
+	EzTextButton({ Key? key }) : super(key: null);
+	
 	@override
 	EzTextButtonState createState() => EzTextButtonState();
 }

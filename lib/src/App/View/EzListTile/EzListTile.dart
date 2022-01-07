@@ -8,6 +8,8 @@ part "EzListTile.g.dart";
 ///
 /// Wraps ListTile.
 class EzListTile extends EzStatefulWidgetBase {
+	EzListTile({ Key? key }) : super(key: null);
+
 	@override
 	EzListTileState createState() => EzListTileState();
 }
