@@ -1,3 +1,6 @@
+## 0.9.0+9
+* Updated following ezFlap changes, and cleanups
+
 ## 0.9.0+7
 * Updated readme
 
